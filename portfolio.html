@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Steven Howie - My Portfolio</title>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link href="css/index.css" rel="stylesheet" />
+    <link href="css/Port.css" rel="stylesheet" />
+
+    <script src="js/portfolio2.js"></script>
+    <script src="js/scale.js"></script>
+
+</head>
+<body>
+    <div id="LeftNavBar">
+        <div class="container1">
+            <ul class="buttons">
+                <li id="li_Contact" class="topbutton"> <a id="button_Contact" href="contact.html" class="NavL">Contact</a></li>
+                <li id="li_Portfolio" class="topbutton"> <a id="button_Portfolio" href="portfolio.html" class="NavL">Portfolio</a></li>
+                <li id="li_About" class="topbutton"> <a id="button_About" href="about.html" class="NavL">Skills</a></li>
+                <li id="li_Home" class="topbutton"> <a id="button_Home" href="index.html" class="NavL"><span id="current">Home</span></a> </li>
+            </ul>
+            <span class="title">SteveHowie</span>
+        </div>
+    </div>
+    <div id="banner">
+        <div class="container">
+
+            <h1 class="header"> Beautiful <span class="highlight2">Code</span> & <span class="highlight2">Design</span></h1>
+            <h5 class="header1">I'm a dedicated <span class="highlight">web designer</span> and <span class="highlight">developer</span> who puts 100% into his work.</h5>
+
+        </div>
+    </div>
+    <div id="Portfolio" class="page">
+        <div class="container">
+            
+                <ul id="filters" class="clearfix">
+                    <li><span class="filter active" data-filter="c front back other">All</span></li>
+                    <li><span class="filter" data-filter="c">C#</span></li>
+                    <li><span class="filter" data-filter="front">Web Frontend</span></li>
+                    <li><span class="filter" data-filter="back">Web Backend</span></li>
+                    <li><span class="filter" data-filter="other">Other</span></li>
+
+                </ul>
+
+            <div id="portfoliolist">
+
+                <div class="portfolio c front back" data-cat="c front back">
+                    <div class="portfolio-wrapper">
+
+                        <a class="imagebox" href="ae.html" data-lightbox="all" title="Front-end and design of the AtomicEngine website.">
+                            <img src="img/port/thumb/AELogo.png" alt="Logo for website, designed and developed by me, written in C# using Asp.Net" />
+                        </a>
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">AtomicEngine Website</a>
+                                <span class="text-category">C#, Front, Back</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio back" data-cat="back">
+                    <div class="portfolio-wrapper">
+
+                        <a class="imagebox" href="cloud.html" data-lightbox="all" title="Forum created in C# and ASP.Net.">
+                            <img src="img/port/thumb/CloudLogo.png" alt="Logo for a forum, created in C# and ASP.Net" />
+                        </a>
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Front of Cloud forum</a>
+                                <span class="text-category">Back-End</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio c" data-cat="c">
+                    <div class="portfolio-wrapper">
+
+                        <a class="imagebox" href="omegakit.html" data-lightbox="all" title="Design and view of OmegaKit.">
+                            <img src="img/port/thumb/OmegaKitLogo.png" alt="Minecraft application written in C#" />
+                        </a>
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">OmegaKit</a>
+                                <span class="text-category">C#</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio other" data-cat="other">
+                    <div class="portfolio-wrapper">
+
+                        <a class="imagebox" href="lua.html" data-lightbox="all" title="Misc Lua code written.">
+                            <img src="img/port/thumb/LuaLogo.png" alt="Thumbnail for misc lua code" />
+                        </a>
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Misc Lua code</a>
+                                <span class="text-category">Other</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio front back" data-cat="front back">
+                    <div class="portfolio-wrapper">
+
+                        <a class="imagebox" href="reqRaiding.html" data-lightbox="all" title="Requium Raiding website.">
+                            <img src="img/port/thumb/ReqLogo.png" alt="Thumbnail for requiem raiding" />
+                        </a>
+                        <div class="label">
+                            <div class="label-text">
+                                <a class="text-title">Reqeium Raiding website</a>
+                                <span class="text-category">Front Back</span>
+                            </div>
+                            <div class="label-bg"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+    <div class="pagefooter">
+        <div class="container">
+            <div class="sitemap">
+                <p>SiteMap:</p>
+                <ul>
+                    <li><a href="index.html" class="MapL">Home</a></li>
+                    <li><a href="about.html" class="MapL">Skills</a></li>
+                    <li><a href="portfolio.html" class="MapL">Portfolio</a></li>
+                      <li><a href="contact.html" class="MapL">Contact</a></li><li><a href="privacypolicy.html" class="MapL">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="FContact">
+                <p>Contact</p>
+                <p><a href="mailto:info@stevenhowie.co.uk" style="text-decoration:none;float:left;"><span class="highlight">info@stevenhowie.co.uk</span></a></p>
+                <p>&nbsp;</p>
+                <p>© Steven Howie 2014</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

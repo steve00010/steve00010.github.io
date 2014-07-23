@@ -1,0 +1,55 @@
+﻿.skill a:link {
+ 
+  
+   text-decoration:none;
+   list-style-type: none;
+}
+.skill a:hover {
+    
+   color:#0094ff;
+}
+.skill:hover {
+    
+   color:#0094ff;
+}
+.skill a {
+    color:black;
+}
+.skill {
+    width:1px;
+    text-decoration:none;
+    list-style-type: none;
+}
+.myskills {
+     list-style-type: none;
+    text-align:left;
+    text-decoration:none;
+}
+.hiddeninfo {
+    display:none;
+
+}
+.topbox1 {   
+    
+    margin-top:20px;
+   
+    padding-top:0.5px;
+    text-decoration: none;
+    font-size:27px;  
+    
+    
+    float:left;
+    padding-right:50px;
+}
+.topbox2 {   
+    
+    
+     margin-top:20px;
+    padding-top:0.5px;
+    text-decoration: none;
+    font-size:21px;  
+   
+    
+    margin-left:50px;
+   
+}
