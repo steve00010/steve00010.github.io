@@ -5,7 +5,7 @@ if ($_POST['submit']) {
     $email = $_POST['email'];
     $message = $_POST['message'];
     $from = 'From: ContactForm'; 
-    $to = 'info@stevenhowie.co.uk'; 
+    $to = 'steve.howie@hotmail.com'; 
     $subject = 'Web Contact';
 
     $body = "From: $name\n E-Mail: $email\n Message:\n $message";
