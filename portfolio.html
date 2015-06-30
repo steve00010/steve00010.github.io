@@ -1,195 +1,240 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-    <title>Steven Howie - My Portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="description" content="Prophecy Gaming Altis Life, an RPG server for Arma3. A unique roleplaying experience on a highly developed Altis Life Server." />
+  <meta name="author" content="Prophecy Gaming" />
+  <meta name="keywords" content="Arma,Arma3,RPG,Altis,AltisLife,ProphecyGaming,Gaming,Prophecy,scifi,futuristic,developed,forums,roleplaying,casino,police,economy,patrol,donator,medics">
+  <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+  <title>Steven Howie </title>
+  <!-- BOOTSTRAP CORE STYLE CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/custom.css">
+  <link rel="stylesheet" href="assets/css/portfolio.css">
+  <link rel="stylesheet" href="assets/css/font-awesome.css" />
+  <link rel="stylesheet" href="assets/css/jportilio.min.css">
 
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.easing.min.js"></script>
-    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
-    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-    <link href="css/index.css" rel="stylesheet" />
-    <link href="css/Port.css" rel="stylesheet" />
-
-    <script src="js/portfolio2.js"></script>
-    <script src="js/scale.js"></script>
-
+  <!-- GOOGLE FONT -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 </head>
+
 <body>
-    <div id="LeftNavBar">
-        <div class="container1">
-            <ul class="buttons">
-                <li id="li_Contact" class="topbutton"> <a id="button_Contact" href="contact.html" class="NavL">Contact</a></li>
-                <li id="li_Portfolio" class="topbutton"> <a id="button_Portfolio" href="portfolio.html" class="NavL">Portfolio</a></li>
-                <li id="li_About" class="topbutton"> <a id="button_About" href="about.html" class="NavL">Skills</a></li>
-                <li id="li_Home" class="topbutton"> <a id="button_Home" href="index.html" class="NavL"><span id="current">Home</span></a> </li>
-            </ul>
-            <span class="title">SteveHowie</span>
-        </div>
+
+  <!-- NAVBAR SECTION END-->
+
+  <!-- HOME/VEDIO SECTION END-->
+  <div class="navbar navbar-default navbar-static-top" id="nav">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav navbar-center">
+          <li ><a href="about.html">About</a></li>
+          <li id="Services">
+
+            <a href="services.html">Services</a>
+          </li>
+          <li id="index">
+            <a href="index.html">StevenHowie</a>
+          </li>
+          <li id="portfolio"  class="active1">
+            <a href="portfolio.html">Portfolio</a></li>
+          <li id="contact">
+            <a href="contact.html">Contact</a></li>
+
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
     </div>
-    <div id="banner">
-        <div class="container">
+    <!--/.container -->
+  </div>
+  <!--/.navbar -->
 
-            <h1 class="header"> Beautiful <span class="highlight2">Code</span> & <span class="highlight2">Design</span></h1>
-            <h5 class="header1">I'm a dedicated <span class="highlight">web designer</span> and <span class="highlight">developer</span> who puts 100% into his work.</h5>
 
-        </div>
-    </div>
-    <div id="Portfolio" class="page">
-        <div class="container">
-            
-                <ul id="filters" class="clearfix">
-                    <li><span class="filter active" data-filter="c front back other">All</span></li>
-                    <li><span class="filter" data-filter="c">C#</span></li>
-                    <li><span class="filter" data-filter="front">Web Frontend</span></li>
-                    <li><span class="filter" data-filter="back">Web Backend</span></li>
-                    <li><span class="filter" data-filter="other">Other</span></li>
+  <div id="bodycontain">
+    <div class="container">
+      <ul id="filters" class="clearfix">
+        <li>
+          <span class="filter active" data-filter="c front back other">All</span>
+        </li>
+        <li>
+          <span class="filter" data-filter="c">C#</span>
+        </li>
+        <li>
+          <span class="filter" data-filter="front">Web Frontend</span>
+        </li>
+        <li>
+          <span class="filter" data-filter="back">Web Backend</span>
+        </li>
+        <li>
+          <span class="filter" data-filter="other">Other</span>
+        </li>
 
-                </ul>
+      </ul>
+      <div class="row">
+        <div id="portfoliolist" class="col-md-12">
 
-            <div id="portfoliolist">
+          <div class="portfolio c front back"   data-cat="c front back">
+            <div class="portfolio-wrapper">
 
-                <div class="portfolio c front back" data-cat="c front back">
-                    <div class="portfolio-wrapper">
-
-                        <a class="imagebox" href="ae.html" data-lightbox="all" title="Front-end and design of the AtomicEngine website.">
-                            <img src="img/port/thumb/AELogo.png" alt="Logo for website, designed and developed by me, written in C# using Asp.Net" />
-                        </a>
-                        <div class="label">
-                            <div class="label-text">
-                                <a class="text-title">AtomicEngine Website</a>
-                                <span class="text-category">C#, Front, Back</span>
-                            </div>
-                            <div class="label-bg"></div>
-                        </div>
-                    </div>
+              <a class="imagebox" href="portfolio/ae.html" data-lightbox="all" title="Front-end and design of the AtomicEngine website.">
+                <img src="assets/img/port/thumb/AELogo.png" alt="Logo for website, designed and developed by me, written in C# using Asp.Net" />
+              </a>
+              <div class="label">
+                <div class="label-text">
+                  <a class="text-title">AtomicEngine</a>
+                  <span class="text-category">C#, Front, Back</span>
                 </div>
-                <div class="portfolio back" data-cat="back">
-                    <div class="portfolio-wrapper">
-
-                        <a class="imagebox" href="cloud.html" data-lightbox="all" title="Forum created in C# and ASP.Net.">
-                            <img src="img/port/thumb/CloudLogo.png"  width=230px height=190px  alt="Logo for a forum, created in C# and ASP.Net" />
-                        </a>
-                        <div class="label">
-                            <div class="label-text">
-                                <a class="text-title">Front of Cloud forum</a>
-                                <span class="text-category">Back-End</span>
-                            </div>
-                            <div class="label-bg"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio c" data-cat="c">
-                    <div class="portfolio-wrapper">
-
-                        <a class="imagebox" href="omegakit.html" data-lightbox="all" title="Design and view of OmegaKit.">
-                            <img src="img/port/thumb/OmegaKitLogo.png"  width=230px height=190px  alt="Minecraft application written in C#" />
-                        </a>
-                        <div class="label">
-                            <div class="label-text">
-                                <a class="text-title">OmegaKit</a>
-                                <span class="text-category">C#</span>
-                            </div>
-                            <div class="label-bg"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio other" data-cat="other">
-                    <div class="portfolio-wrapper">
-
-                        <a class="imagebox" href="lua.html" data-lightbox="all" title="Misc Lua code written.">
-                            <img src="img/port/thumb/LuaLogo.png"  width=230px height=190px  alt="Thumbnail for misc lua code" />
-                        </a>
-                        <div class="label">
-                            <div class="label-text">
-                                <a class="text-title">Misc Lua code</a>
-                                <span class="text-category">Other</span>
-                            </div>
-                            <div class="label-bg"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio front back" data-cat="front back">
-                    <div class="portfolio-wrapper">
-
-                        <a class="imagebox" href="reqRaiding.html" data-lightbox="all" title="Requium Raiding website.">
-                            <img src="img/port/thumb/ReqLogo.png"  width=230px height=190px  alt="Thumbnail for requiem raiding" />
-                        </a>
-                        <div class="label">
-                            <div class="label-text">
-                                <a class="text-title">Reqeium Raiding website</a>
-                                <span class="text-category">Front Back</span>
-                            </div>
-                            <div class="label-bg"></div>
-                        </div>
-                    </div>
-                </div>
-				<div class="portfolio front back" data-cat="front back">
-                    <div class="portfolio-wrapper">
-
-                        <a class="imagebox" href="prophecy.html" data-lightbox="all" title="Prophecy gaming website.">
-                            <img src="img/port/thumb/ProphLogo.png"  width=230px height=190px  alt="Thumbnail for prophecy gaming" />
-                        </a>
-                        <div class="label">
-                            <div class="label-text">
-                                <a class="text-title">Prophecy gaming website</a>
-                                <span class="text-category">Front Back</span>
-                            </div>
-                            <div class="label-bg"></div>
-                        </div>
-                    </div>
-                </div>
-				<div class="portfolio front back" data-cat="front back other">
-                    <div class="portfolio-wrapper">
-
-                        <a class="imagebox" href="rpggame.html" data-lightbox="all" title="Java RPG Game">
-                            <img src="img/port/thumb/RPGLogo.png"  width=230px height=190px  alt="Thumbnail for Java RPG game" />
-                        </a>
-                        <div class="label">
-                            <div class="label-text">
-                                <a class="text-title">Java RPG Game</a>
-                                <span class="text-category">Front Back Other</span>
-                            </div>
-                            <div class="label-bg"></div>
-                        </div>
-                    </div>
-                </div>
-				<div class="portfolio front back" data-cat="front back">
-                    <div class="portfolio-wrapper">
-
-                        <a class="imagebox" href="altisservers.html" data-lightbox="all" title="Altis Life Servers">
-                            <img src="img/port/thumb/ALS.png" width=230px height=190px alt="Thumbnail for Altis Life Servers Website" />
-                        </a>
-                        <div class="label">
-                            <div class="label-text">
-                                <a class="text-title">AltisLifeServers Website</a>
-                                <span class="text-category">Front Back Other</span>
-                            </div>
-                            <div class="label-bg"></div>
-                        </div>
-                    </div>
-                </div>
+                <div class="label-bg"></div>
+              </div>
+              <div class='jprt-content'>
+                <h1>This content is shown in new element, below the item!</h1>
+              </div>
             </div>
-          
-        </div>
-    </div>
-    <div class="pagefooter">
-        <div class="container">
-            <div class="sitemap">
-                <p>SiteMap:</p>
-                <ul>
-                    <li><a href="index.html" class="MapL">Home</a></li>
-                    <li><a href="about.html" class="MapL">Skills</a></li>
-                    <li><a href="portfolio.html" class="MapL">Portfolio</a></li>
-                      <li><a href="contact.html" class="MapL">Contact</a></li><li><a href="privacypolicy.html" class="MapL">Privacy Policy</a></li>
-                </ul>
+          </div>
+          <div class="portfolio c" data-cat="c">
+            <div class="portfolio-wrapper">
+
+              <a class="imagebox" href="portfolio/omegakit.html" data-lightbox="all" title="Design and view of OmegaKit.">
+                <img src="assets/img/port/thumb/OmegaKitLogo.png" width=230px height=190px alt="Minecraft application written in C#" />
+              </a>
+              <div class="label">
+                <div class="label-text">
+                  <a class="text-title">OmegaKit</a>
+                  <span class="text-category">C#</span>
+                </div>
+                <div class="label-bg"></div>
+              </div>
             </div>
-            <div class="FContact">
-                <p>Contact</p>
-                <p><a href="mailto:info@stevenhowie.co.uk" style="text-decoration:none;float:left;"><span class="highlight">info@stevenhowie.co.uk</span></a></p>
-                <p>&nbsp;</p>
-                <p>© Steven Howie 2014</p>
+          </div>
+          <div class="portfolio other" data-cat="other">
+            <div class="portfolio-wrapper">
+
+              <a class="imagebox" href="portfolio/lua.html" data-lightbox="all" title="Misc Lua code written.">
+                <img src="assets/img/port/thumb/LuaLogo.png" width=230px height=190px alt="Thumbnail for misc lua code" />
+              </a>
+              <div class="label">
+                <div class="label-text">
+                  <a class="text-title">Misc Lua code</a>
+                  <span class="text-category">Other</span>
+                </div>
+                <div class="label-bg"></div>
+              </div>
             </div>
+          </div>
+          <div class="portfolio front back" data-cat="front back">
+            <div class="portfolio-wrapper">
+
+              <a class="imagebox" href="portfolio/reqRaiding.html" data-lightbox="all" title="Requium Raiding website.">
+                <img src="assets/img/port/thumb/ReqLogo.png" width=230px height=190px alt="Thumbnail for requiem raiding" />
+              </a>
+              <div class="label">
+                <div class="label-text">
+                  <a class="text-title">Reqeium Raiding</a>
+                  <span class="text-category">Front Back</span>
+                </div>
+                <div class="label-bg"></div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio front back" data-cat="front back">
+            <div class="portfolio-wrapper">
+
+              <a class="imagebox" href="portfolio/prophecy.html" data-lightbox="all" title="Prophecy gaming website.">
+                <img src="assets/img/port/thumb/ProphLogo.png" width=230px height=190px alt="Thumbnail for prophecy gaming" />
+              </a>
+              <div class="label">
+                <div class="label-text">
+                  <a class="text-title">Prophecy Gaming</a>
+                  <span class="text-category">Front Back</span>
+                </div>
+                <div class="label-bg"></div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio front back" data-cat="front back other">
+            <div class="portfolio-wrapper">
+
+              <a class="imagebox" href="portfolio/rpggame.html" data-lightbox="all" title="Java RPG Game">
+                <img src="assets/img/port/thumb/RPGLogo.png" width=230px height=190px alt="Thumbnail for Java RPG game" />
+              </a>
+              <div class="label">
+                <div class="label-text">
+                  <a class="text-title">Java RPG Game</a>
+                  <span class="text-category">Front Back Other</span>
+                </div>
+                <div class="label-bg"></div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio front back" data-cat="front back">
+            <div class="portfolio-wrapper">
+
+              <a class="imagebox" href="portfolio/altisservers.html" data-lightbox="all" title="Altis Life Servers">
+                <img src="assets/img/port/thumb/ALS.png" width=230px height=190px alt="Thumbnail for Altis Life Servers Website" />
+              </a>
+              <div class="label">
+                <div class="label-text">
+                  <a class="text-title">AltisLife Servers</a>
+                  <span class="text-category">Front Back Other</span>
+                </div>
+                <div class="label-bg"></div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio front back" data-cat="front back">
+            <div class="portfolio-wrapper">
+
+              <a class="imagebox" href="portfolio/RideABike.html" data-lightbox="all" title="RideABike">
+                <img src="assets/img/port/thumb/an.png" width=230px height=190px alt="Thumbnail for RideABike app" />
+              </a>
+              <div class="label">
+                <div class="label-text">
+                  <a class="text-title">RideABike App</a>
+                  <span class="text-category">Front Back Other</span>
+                </div>
+                <div class="label-bg"></div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+
     </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 copyright">Steven Howie
+          <br />2015 © All Rights Reserved.</div>
+        <div class="col-md-6 text-right">
+          <a href="#" class="social fa fa-facebook"></a>
+          <a href="#" class="social fa fa-twitter"></a>
+          <a href="#" class="social fa fa-google-plus"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- CONTACT  SECTION END-->
+  <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+  <!-- CORE JQUERY  -->
+  <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+  <!-- BOOTSTRAP SCRIPTS  -->
+  <script src="assets/js/jquery.easing.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <script src="assets/js/sticky.js"></script>
+  <script src="assets/js/jquery.mixitup.min.js"></script>
+  <script src="assets/js/portfolio2.js"></script>
+
 </body>
+
 </html>
