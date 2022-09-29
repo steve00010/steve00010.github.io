@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L3MYJEP648"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-L3MYJEP648');
+    </script>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js"></script>
+
+  </head>
+  <body>
+
+    <style>
+        body {
+            background-color: #151517 !important;
+            color: white;
+        }
+    </style>
+    <div ID="ngy2p" data-nanogallery2='{
+        "itemsBaseURL": "https://beyondmars.co.uk/pics/",
+        "thumbnailWidth": "200",
+        "thumbnailLabel": {
+          "position": "overImageOnBottom"
+        },
+        "thumbnailAlignment": "center",
+        "thumbnailOpenImage": true,
+        "thumbnailAlignment": "scaled",
+        "thumbnailGutterWidth": "0", 
+        "thumbnailGutterHeight": "0",
+        "thumbnailBorderHorizontal": "0", 
+        "thumbnailBorderVertical": "0",
+        "thumbnailToolbarImage": { "topLeft":"download", "topRight": "share", "bottomLeft": "", "bottomRight":""},
+        "thumbnailToolbarAlbum": { "topLeft":"download", "topRight": "share", "bottomLeft": "", "bottomRight":""},
+        "viewerTools":      {
+          "topLeft":   "label",
+          "topRight":  "playPauseButton, zoomButton, shareButton, downloadButton, fullscreenButton, closeButton" }   
+      }'>
+    </div>
+
+    <script>
+        for(var i =1; i<= 191; i++){
+            $('#ngy2p').append('<a href="sept10/BEYOND-MARS-100922-'+ i +'.jpg" data-ngthumb="sept10compressed/BEYOND-MARS-100922-'+i+'.jpg"></a>')
+        }
+    </script>
+    
+  </body>
+</html>
