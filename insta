@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>Insta Flyer</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-L3MYJEP648"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-L3MYJEP648');
+      
+      window.location.replace("https://www.instagram.com/beyondmvrs/")
+    </script>
+    </head>
+    </html>
